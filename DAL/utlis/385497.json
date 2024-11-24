@@ -1,0 +1,5898 @@
+{
+    "Measurements": [
+        {
+            "Name": "ACM_Crash_Sts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA38",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WWM_WiperServiceModeSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9D8",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WWM_RearWiperSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9D9",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WWM_RearWiperAutoMode",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9DA",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WWM_RearWasherFluidSpayReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9DB",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WWM_RLSSensitivityLevelSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9DC",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WWM_Nv_RearWiperAutoModeSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CC3F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WWM_FrontWiperStepTimeSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9DD",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WWM_FrontWiperSpeedSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9DE",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WWM_FrontWasherFluidSpayReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9DF",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WWM_AutoOrIntervalModeSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CC3E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WWM_AutoModeLEDSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CC3D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_WiperServiceModeSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7B3",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_RearWiperAutoModeSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7B4",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "Nv_RearWiperAutoModeSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB3C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WiperServiceModeSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA39",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WasherPumpSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA3A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_ThumbWheelSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB3D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_RightStalkSwitchSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB3E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_RearWiperWorkingSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA3B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_RearWiperParkPosSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA3C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_RLSWiperSpeedReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA3D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_FrontWiperSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA0D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_FrontWiperStepTimeSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA3F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_FrontWiperParkPosSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA40",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WCM_WindowsControlGlobal",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CC3C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WCM_WindowControlFR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CC39",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WCM_WindowControlFL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CC38",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_WindowVoiceControlRR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7B9",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_WindowVoiceControlRL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7B8",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_WindowVoiceControlFR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7B7",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_WindowVoiceControlFL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7B6",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_WindowCAppControlRR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7BD",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_WindowCAppControlRL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7BC",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_WindowCAppControlFR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7BB",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_WindowCAppControlFL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7BA",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_WashModeSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7B5",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "P_WCM_WindowControlRR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CC3B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "P_WCM_WindowControlRL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CC3A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowsRRAntiPinchWarn",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA41",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowsRLAntiPinchWarn",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA42",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowsFRAntiPinchWarn",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA43",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowsFLAntiPinchWarn",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA44",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowRRThermalProtect",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA45",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowRRSuppressionWarn",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9C0",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowRRLockActive",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA47",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowRRLearningSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9C1",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowRLThermalProtect",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA49",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowRLSuppressionWarn",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA4A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowRLLockActive",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA4B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowRLLearningSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA4C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowPositionRR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA4D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowPositionRL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA4E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowPositionFR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA4F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowPositionFL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA50",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowLockDSBBtnPress",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA51",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowFRThermalProtect",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA52",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowFRSuppressionWarn",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA53",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowFRLockActive",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA54",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowFRLearningSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA55",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowFLThermalProtect",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA56",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowFLSuppressionWarn",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA57",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowFLLockActive",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA58",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowFLLearningSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA59",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowDSBBtnPressRR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7C7",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowDSBBtnPressRL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7C6",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowDSBBtnPressFR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7C5",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowDSBBtnPressFL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7C4",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowBtnPressRR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA5A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowBtnPressRL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA5B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_WindowBtnPressFR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA5C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "VSM_DigitSpeed",
+            "Long identifier": "",
+            "Data type": "UWORD",
+            "Conversion method": "CM_uint16",
+            "ECU_ADDRESS": "0x3434CA26",
+            "Lower limit": 0,
+            "Upper limit": 65535
+        },
+        {
+            "Name": "MHU_STAT_MileageUnit",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA5D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BSW_VehicleSpdE2ESts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB3F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "VCU_VehChgSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA6E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "TCM_OnLowSocSaveModeTimer",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9E1",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "TCM_OnIdleTimer",
+            "Long identifier": "",
+            "Data type": "UWORD",
+            "Conversion method": "CM_uint16",
+            "ECU_ADDRESS": "0x3434CAB8",
+            "Lower limit": 0,
+            "Upper limit": 65535
+        },
+        {
+            "Name": "TCM_FullScreenChgDisplayTimer",
+            "Long identifier": "",
+            "Data type": "UWORD",
+            "Conversion method": "CM_uint16",
+            "ECU_ADDRESS": "0x3434CBE6",
+            "Lower limit": 0,
+            "Upper limit": 65535
+        },
+        {
+            "Name": "TCM_Cluster2Request",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBE4",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "TCM_Cluster0Request",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBE3",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "TCM_ClampRRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBE2",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "TCM_ClampIncompatibleWarnFlag",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBE1",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "TCM_Clamp30sRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBE0",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "TCM_Clamp30cRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBDF",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "TCM_Clamp15Request",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBDE",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "TCM_AccLowSocSaveModeTimer",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9E2",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "TCM_AccIdleTimer",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9E3",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "IMMO_IMMOSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB45",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "FCAM_RemoteDrivingRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7AD",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CVC_TransportModeSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7AF",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CVC_SocDisplay",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CAC8",
+            "Upper limit": 3
+        },
+        {
+            "Name": "CVC_RemoteParkingRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7B1",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CVC_OtaRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA2B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CVC_AccessoryModeRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7AE",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BMS_HVOnOffSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA70",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_TailgatePassiveEntryReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA71",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_FootKickOperationRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA72",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_ClampRRE",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB46",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_Clamp30sRE",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB47",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_Clamp30cRE",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB48",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_Clamp15RE",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB49",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_AlcoholockSwitch",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA73",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_ClampRFR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB4A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_Clamp30sFR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB4B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_Clamp30cFR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB4C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_Clamp15FR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB4D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_ClampRFL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB4E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_Clamp30sFL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB4F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_Clamp30cFL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB50",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_Clamp15FL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB51",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ATA_AntiTheftStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB52",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ACM_SeatOccupancyPassenger",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA2D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ACM_SeatOccupancy2ndRowPas",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA2E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ACM_SeatOccupancy2ndRowMid",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA2F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ACM_SeatOccupancy2ndRowDri",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA30",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "SMAM_TiltSettingValidFlag",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBDD",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "SMAM_SetRearHeatWindow",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBDC",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "SMAM_SetMirrorFoldRight",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBDB",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "SMAM_SetMirrorFoldLeft",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBDA",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "SMAM_RHMirrorAdjustmentSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBD9",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "SMAM_RHMirrorAdjustmentReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBD8",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "SMAM_LHMirrorAdjustmentSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBB3",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "SMAM_LHMirrorAdjustmentReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBB2",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "SMAM_FoldSettingValidFlag",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBB1",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_SetMirrorAutoUnfold",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB53",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_RightMirrorFoldRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB54",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_RearHeatedWindowSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB55",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_MirrorAdjustRightSetOn",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB56",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_MirrorAdjustRightSetOff",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB57",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_MirrorAdjustLeftSetOn",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB58",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_MirrorAdjustLeftSetOff",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB59",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_LeftMirrorFoldRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB5A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_Autotilt",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB5B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "MHU_UserProfileId",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA74",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "MHU_SetRearDefrost",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7C2",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "MFS_UpControl",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7C1",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "MFS_RightControl",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7C0",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "MFS_LeftControl",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7BF",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "MFS_DownControl",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7BE",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_STAT_RightMirrorPosY",
+            "Long identifier": "",
+            "Data type": "SBYTE",
+            "Conversion method": "CM_int8",
+            "ECU_ADDRESS": "0x3434CA75",
+            "Upper limit": 127
+        },
+        {
+            "Name": "BCMFR_STAT_RightMirrorPosX",
+            "Long identifier": "",
+            "Data type": "SBYTE",
+            "Conversion method": "CM_int8",
+            "ECU_ADDRESS": "0x3434CA76",
+            "Upper limit": 127
+        },
+        {
+            "Name": "BCMFR_STAT_RightMirrorHeating",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA77",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_STAT_RightMirrorFold",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA78",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_STAT_MirrorAdjustRight",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA79",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_STAT_MirrorAdjustLeft",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA7A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_STAT_LeftMirrorPosY",
+            "Long identifier": "",
+            "Data type": "SBYTE",
+            "Conversion method": "CM_int8",
+            "ECU_ADDRESS": "0x3434CA63",
+            "Upper limit": 127
+        },
+        {
+            "Name": "BCMFL_STAT_LeftMirrorPosX",
+            "Long identifier": "",
+            "Data type": "SBYTE",
+            "Conversion method": "CM_int8",
+            "ECU_ADDRESS": "0x3434CA7C",
+            "Upper limit": 127
+        },
+        {
+            "Name": "BCMFL_STAT_LeftMirrorHeating",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA7D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_STAT_LeftMirrorFold",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA7E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_SwitchLightBrightness",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C793",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_RearDomeLampSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C792",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_FrontDomeLampSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C791",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_FootwellLightMode",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C790",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_AmbLightTypeReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C78F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_AmbLightColorRed",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C78B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_AmbLightColorGreen",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C78C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_AmbLightColorBlue",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C78D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_AmbLightBrightnessReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C78E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_AmbLightAllZoneReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C789",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "PAS_RightDoorAmbLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA83",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "PAS_LeftDoorAmbLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA84",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_SwitchLightBrightnessSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9E5",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_SwitchLightBrightnessNot",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBAA",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_RearDomeLampReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9E6",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_RRProjectorLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9E7",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_RRDoorCourtesyLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9E8",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_RLProjectorLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9E9",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_RLDoorCourtesyLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9EA",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_PWM_FN_ILUM_LIN",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBA9",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_FrontDomeLampReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9EB",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_FRScuffLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9EC",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_FRProjectorLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9ED",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_FRFootwellLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9EE",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_FRDoorCourtesyLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9EF",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_FLScuffLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9F0",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_FLProjectorLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9F1",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_FLFootwellLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9F2",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_FLDoorCourtesyLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9F3",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_CargoLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9F4",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_BonnetLightReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9F5",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneRRReq_Z4B",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9D5",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneRRReq_Z4",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9D4",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneRLReq_Z5B",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9D3",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneRLReq_Z5",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9D2",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneIPPassReq_Z6B",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9D1",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneIPPassReq_Z6",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9D0",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneIPDrivReq_Z1",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9CF",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneFRReq_Z2B",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9CE",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneFRReq_Z2",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9CD",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneFLReq_Z3B",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9CC",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneFLReq_Z3",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9CB",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneConsRReq_Z8B",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9CA",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneConsRReq_Z8",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9C9",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneConsRRReq_Z10",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9C8",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneConsRLReq_Z9",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9C7",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneConsLReq_Z7B",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9C6",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightZoneConsLReq_Z7",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9C5",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightTypeReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9C4",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightT4Req",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CB10",
+            "Upper limit": 3
+        },
+        {
+            "Name": "ILM_AmbLightT3Req",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CAC0",
+            "Upper limit": 3
+        },
+        {
+            "Name": "ILM_AmbLightT2Req",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CAF0",
+            "Upper limit": 3
+        },
+        {
+            "Name": "ILM_AmbLightT1Req",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CB08",
+            "Upper limit": 3
+        },
+        {
+            "Name": "ILM_AmbLightN2Req",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CB04",
+            "Upper limit": 3
+        },
+        {
+            "Name": "ILM_AmbLightN1Req",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CAF4",
+            "Upper limit": 3
+        },
+        {
+            "Name": "ILM_AmbLightColorRed",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9BF",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightColorGreen",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9BE",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightColorBlue",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9D7",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ILM_AmbLightBrightnessReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9D6",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_RearDomeLampStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA85",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_RRProjectorLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA86",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_RLProjectorLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA87",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_RLDoorCourtesyLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA88",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_CargoLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA89",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_BonnetLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA8A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_FRScuffLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA8B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_FRProjectorLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA8C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_FRFootwellLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA68",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_FRDoorCourtesyLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA8E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_SwitchLightBrightnessSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA2C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_FrontDomeLampStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA8F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_FLScuffLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA7B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_FLProjectorLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA91",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_FLFootwellLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA92",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_FLDoorCourtesyLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA93",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_CAPPHornRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7B2",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "HCM_HornRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9F6",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_HornONReminder",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB64",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_HornSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA94",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ATA_HornRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB5C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "YSS_LonglAccRate",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CB00",
+            "Upper limit": 3
+        },
+        {
+            "Name": "SCM_LeftStalkSwitchStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB66",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_WelcomeLightSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7AA",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_RearFogLightSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7A4",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_FrontFogLightSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7A2",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_FMHSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7A8",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_ExteriorLightSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7A0",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_AHBSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7A7",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "Nv_WelcomeLightSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7AB",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "Nv_RearFogLightSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7A5",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "Nv_FrontFogLightSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7A3",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "Nv_FMHSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7A9",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "Nv_ExteriorLightSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7A1",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "IF_FCAM_FLRCTAWarningRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA9A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "IDB_AutoHazardRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA33",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "IDB_AVHActiveStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA34",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "HLMR_MotorTemperatureInfo",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA95",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "HLML_MotorTemperatureInfo",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA96",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "FCAM_FRRCTAWarningRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA97",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "FCAM_FRDOWWarningRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA98",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "FCAM_FRBSDWarningRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA8D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "FCAM_FLDOWWarningRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA9B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "FCAM_FLBSDWarningRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA9C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "FCAM_AHBRightHBRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA9D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "FCAM_AHBLeftHBRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA9E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "EPS_SteeringWheelAngle",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CAFC",
+            "Upper limit": 3
+        },
+        {
+            "Name": "ELM_WelcomeLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9F7",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_RightReverseLampRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9F8",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_RightBrakeLightRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9F9",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_RegenerativeBrakeLightSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9BC",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_RearFogLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9FA",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_RRTurnIndicatorRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9FB",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_RRPosLightRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9FC",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_RRFogLightRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9FD",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_RLTurnIndicatorRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9FE",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_RLPosLightRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9FF",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_RLFogLightRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA00",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_Nv_WelcomeLightSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBA8",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_Nv_RearFogLightSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBA7",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_Nv_FrontFogLightSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBA6",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_Nv_FMHSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBA5",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_Nv_ExteriorLightSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBA4",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_LicensePlateLampRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA01",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_LeftReverseLampRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA02",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_LeftBrakeLightRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA03",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_IndicatorLightMode",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA04",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FrontFogLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA05",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FRTurnIndicatorRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA06",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FRPosLightRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA07",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FRMirrorLEDRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA08",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FRLowBeamRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA09",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FRHighBeamRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA0A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FRFogLightRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA0B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FRDRLRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA0C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FRAHLTargetPosition",
+            "Long identifier": "",
+            "Data type": "UWORD",
+            "Conversion method": "CM_uint16",
+            "ECU_ADDRESS": "0x3434CAB6",
+            "Lower limit": 0,
+            "Upper limit": 65535
+        },
+        {
+            "Name": "ELM_FMHStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA0E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FLTurnIndicatorRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA0F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FLPosLightRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA10",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FLMirrorLEDRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA11",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FLLowBeamRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA12",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FLHighBeamRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA13",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FLFogLightRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA14",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FLDRLRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA15",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_FLAHLTargetPosition",
+            "Long identifier": "",
+            "Data type": "UWORD",
+            "Conversion method": "CM_uint16",
+            "ECU_ADDRESS": "0x3434CAB4",
+            "Lower limit": 0,
+            "Upper limit": 65535
+        },
+        {
+            "Name": "ELM_ExteriorLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA17",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_CMBrakeLightRequest",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA18",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_AHLWorkingMode",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA19",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_AHLPitchAngle",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CB0C",
+            "Upper limit": 3
+        },
+        {
+            "Name": "ELM_AHBStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBA3",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_AHBRightHBStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBA2",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_AHBOverrideSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBA1",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_AHBLeftHBStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CBA0",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ELM_AHBIcon",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA1B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CVC_ActualGearValid",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7AC",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_FRMirrorLEDSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA9F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "COM_FLMirrorLEDSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAA0",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_LampONReminder",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB67",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_DoorLockUnlockType",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB5D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_RightBrakeLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAA1",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_RearHeightSensorStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA90",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_ReHeightSnsrVolt",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CAC4",
+            "Upper limit": 3
+        },
+        {
+            "Name": "BCMRE_RRTurnLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA99",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_RRPosLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAA5",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_RRFogLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAA6",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_RLTurnLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAA7",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_RLPosLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAA2",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_RLFogLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAA9",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_LicensePlateLampStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAAA",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_LeftBrakeLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9C2",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_CMBrakeLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAAC",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_RightReverseLampStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAA4",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_RLSLampStatusFeedback",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAA8",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_FRPosLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB69",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_FRLowBeamStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB6A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_FRHighBeamStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB6B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_FRFogLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAB1",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_FRDRLStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAAE",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_FLFogLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA6D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_LeftReverseLampStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAB0",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_HazardButtonStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAAF",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_FrontHeightSensorStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAB2",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_FrntHeightSnsrVolt",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CABC",
+            "Upper limit": 3
+        },
+        {
+            "Name": "BCMFL_FRTurnLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAAD",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_FLTurnLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAB3",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_FLPosLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAAB",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_FLLowBeamStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CAA3",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_FLHighBeamStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA6F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_FLDRLStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA6C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "WalkKeyReserchCount",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434C778",
+            "Upper limit": 3
+        },
+        {
+            "Name": "WalkAwayFunctionTrigger",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_boolean",
+            "ECU_ADDRESS": "0x3434C787",
+            "Lower limit": 0,
+            "Upper limit": 1
+        },
+        {
+            "Name": "WalkAwayFunctionSts",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C786",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "TrigSearchKeyToHandleKeyValid",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_boolean",
+            "ECU_ADDRESS": "0x3434C785",
+            "Lower limit": 0,
+            "Upper limit": 1
+        },
+        {
+            "Name": "TrigKeySearchCyclic",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_boolean",
+            "ECU_ADDRESS": "0x3434C784",
+            "Lower limit": 0,
+            "Upper limit": 1
+        },
+        {
+            "Name": "TrigKeySearchByWalkAway",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_boolean",
+            "ECU_ADDRESS": "0x3434C783",
+            "Lower limit": 0,
+            "Upper limit": 1
+        },
+        {
+            "Name": "TCM_VehicleOperationState",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9BD",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_WalkAwayLockSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C796",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_SpeedLockSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C795",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_ParkUnlockSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C794",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_FeedbackSignalsSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C798",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_DoorUnlockOptionSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C797",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "S2S_ChildModeSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C799",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "RestartToHandleKeyValid",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_boolean",
+            "ECU_ADDRESS": "0x3434C782",
+            "Lower limit": 0,
+            "Upper limit": 1
+        },
+        {
+            "Name": "RestartFunctionFlg",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_boolean",
+            "ECU_ADDRESS": "0x3434C781",
+            "Lower limit": 0,
+            "Upper limit": 1
+        },
+        {
+            "Name": "ReTrigKeySearchINIV",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_boolean",
+            "ECU_ADDRESS": "0x3434C780",
+            "Lower limit": 0,
+            "Upper limit": 1
+        },
+        {
+            "Name": "Nv_WalkAwayLockSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C79C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "Nv_SpeedLockSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C79B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "Nv_ParkUnlockSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C79A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "Nv_FeedbackSignalsSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C79E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "Nv_DoorUnlockOptionSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C79D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "Nv_ChildModeSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C79F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "IMMO_KeyFOBSearchReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB68",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "IDB_VehicleSpd",
+            "Long identifier": "",
+            "Data type": "FLOAT32_IEEE",
+            "Conversion method": "CM_single",
+            "ECU_ADDRESS": "0x3434CAF8",
+            "Upper limit": 3
+        },
+        {
+            "Name": "IDB_BrakingSensorStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7A6",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ExitFunctionFlg",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_boolean",
+            "ECU_ADDRESS": "0x3434C77F",
+            "Lower limit": 0,
+            "Upper limit": 1
+        },
+        {
+            "Name": "EndFlgByKeyINIV",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_boolean",
+            "ECU_ADDRESS": "0x3434C77E",
+            "Lower limit": 0,
+            "Upper limit": 1
+        },
+        {
+            "Name": "EndFlgByKeyARIV",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_boolean",
+            "ECU_ADDRESS": "0x3434C77D",
+            "Lower limit": 0,
+            "Upper limit": 1
+        },
+        {
+            "Name": "CVC_ACTGear",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C7B0",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CPD_WarningFlag4",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA6A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_UserSettingFeedback",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA21",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_UserSettingAutoUnlock",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA22",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_Nv_WalkAwayLockSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB9F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_Nv_SpeedLockSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB9E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_Nv_ParkUnlockSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB9D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_Nv_FeedbackSignalsSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB9C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_Nv_DoorUnlockOptionSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB9B",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_Nv_ChildModeSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB9A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_KeyFOBSearchReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA1C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_DoorUnlockOption",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA23",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_DoorSpdSensingLock",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA24",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_DoorRROpenReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB99",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_DoorRRLockReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA1D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_DoorRLOpenReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB98",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_DoorRLLockReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA1E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_DoorOpenWarningSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB97",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_DoorFROpenReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB96",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_DoorFRLockReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA1F",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_DoorFLOpenReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB95",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_DoorFLLockReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA20",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "CLM_ChildLockSet",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB94",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_TailgateAjarStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA69",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_DoorRRRelsButtonPress",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB6D",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_DoorRLRelsButtonPress",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB6E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_DoorLockStatusRR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA66",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_DoorLockStatusRL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA65",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_DoorAjarStatusRR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA16",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMRE_DoorAjarStatusRL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA62",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_KeyFOB_Request",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA5E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_KeyFOBPosition",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA48",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_KeyFOBAuthenStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA46",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_DoorLockStatusFR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA36",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_DoorFRRelsButtonPress",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB65",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_DoorAjarStatusFR",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA35",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_CentralLockingButton",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA32",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFR_CentralLockLightStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA29",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_PassiveEntryButtonReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA28",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_DoorLockStatusFL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA1A",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_DoorFLRelsButtonPress",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB5E",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_DoorAjarStatusFL",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9E4",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "BCMFL_BonnetAjarStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434C9C3",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ATA_KeyFOBSearchReq",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CB6C",
+            "Lower limit": 0,
+            "Upper limit": 255
+        },
+        {
+            "Name": "ARWalkAwayTimeFlag",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_boolean",
+            "ECU_ADDRESS": "0x3434C77C",
+            "Lower limit": 0,
+            "Upper limit": 1
+        },
+        {
+            "Name": "ACM_DriverSeatBeltStatus",
+            "Long identifier": "",
+            "Data type": "UBYTE",
+            "Conversion method": "CM_uint8",
+            "ECU_ADDRESS": "0x3434CA37",
+            "Lower limit": 0,
+            "Upper limit": 255
+        }
+    ],
+    "Characteristics": [
+        {
+            "Name": "S2S_AmbLightAllZoneReq_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700045",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "WASHER_WIPE_TIME",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470011F",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "VSM_SpeedThreshold_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347036D4",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "VSM_MaximumSpeed_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470186E",
+            "Record Layout": "Record_UWORD",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint16",
+            "Lower Limit": 0.0,
+            "Upper Limit": 65535.0
+        },
+        {
+            "Name": "VSM_LowerVehicleOffset_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347036D0",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "VSM_LowerSpeedPercentageFactor_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347036CC",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "VSM_InvalidDigitSpeed_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470186C",
+            "Record Layout": "Record_UWORD",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint16",
+            "Lower Limit": 0.0,
+            "Upper Limit": 65535.0
+        },
+        {
+            "Name": "VSM_HigherSpeedOffset_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347036C8",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "VSM_GeneralSpeedPercentageFactor_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347036C4",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "VSM_DigitSpeed_O",
+            "Long Identifier": "Calibration value for output digitSpeed",
+            "Type": "VALUE",
+            "ECU Address": "0x3470186A",
+            "Record Layout": "Record_UWORD",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint16",
+            "Lower Limit": 0.0,
+            "Upper Limit": 65535.0
+        },
+        {
+            "Name": "VSM_DigitSpeed_E",
+            "Long Identifier": "Calibration switch for output digitSpeed",
+            "Type": "VALUE",
+            "ECU Address": "0x3470011E",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "VMS_Ts_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347036C0",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "VMS_TimeConstantForFilter_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347036BC",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TCM_Ts_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703694",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TCM_STANDSTILL_VELOCITY_THRESHOLD_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703690",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TCM_OccupancySeatbeltMonitorCfgFlag_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700114",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "TCM_ON_LOWSOC_SAVEMODE_TIME_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700113",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "TCM_ON_IDLE_TIME_P",
+            "Long Identifier": "Unit is second, default value is 600s",
+            "Type": "VALUE",
+            "ECU Address": "0x34701868",
+            "Record Layout": "Record_UWORD",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint16",
+            "Lower Limit": 0.0,
+            "Upper Limit": 65535.0
+        },
+        {
+            "Name": "TCM_MINIMUM_HV_SOC_THRESHOLD_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470368C",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TCM_ImmobilizerConfigurationFlag_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700112",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "TCM_CpdConfigurationFlag_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700111",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "TCM_CHARGING_DISPLAY_TIME_P",
+            "Long Identifier": "Unit is second, default value is 300",
+            "Type": "VALUE",
+            "ECU Address": "0x34701866",
+            "Record Layout": "Record_UWORD",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint16",
+            "Lower Limit": 0.0,
+            "Upper Limit": 65535.0
+        },
+        {
+            "Name": "TCM_AlcoholInterLockConfigurationFlag_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700110",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "TCM_ACC_LOWSOC_SAVEMODE_TIME_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470010F",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "TCM_ACC_IDLE_TIME_P",
+            "Long Identifier": "Unit is second, default value is 120s.",
+            "Type": "VALUE",
+            "ECU Address": "0x3470010E",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "SMAM_Ts_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703688",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "SMAM_HeatingTimer_P",
+            "Long Identifier": "Unit is second",
+            "Type": "VALUE",
+            "ECU Address": "0x34701864",
+            "Record Layout": "Record_UWORD",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint16",
+            "Lower Limit": 0.0,
+            "Upper Limit": 65535.0
+        },
+        {
+            "Name": "VEHICLE_UNLOCKED_DOME_LIGHT_ON_DURATION",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703684",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "MIN_BRIGHTNESS_ILLUMINATION",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470010C",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "DOME_LIGHT_ON_DURATION",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703680",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CRASHED_DOME_LIGHT_ON_DURATION",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470367C",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "PANIC_ALARM_HORN_ON_DURATION",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703678",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "PANIC_ALARM_HORN_OFF_DURATION",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703674",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "KEYFOB_PE_HORN_ON_DURATION",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703670",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "KEYFOB_PE_HORN_OFF_DURATION",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470366C",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "KEYFOB_PE_HORN_CYCLE",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470010A",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "HCM_Ts_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703668",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CAPP_HORN_ON_DURATION",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703664",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CAPP_HORN_OFF_DURATION",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703660",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CAPP_HORN_CYCLE",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700109",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "ALARM_TRIGGERED_HORN_ON_DURATION",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470365C",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "ALARM_TRIGGERED_HORN_OFF_DURATION",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703658",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "WELCOME_LIGHT_TIMER",
+            "Long Identifier": "Duration for welcome light",
+            "Type": "VALUE",
+            "ECU Address": "0x34703654",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TURN_LIGHT_FREQUENCY_IN_EMERGENCY",
+            "Long Identifier": "Flashing Hazard light frequency",
+            "Type": "VALUE",
+            "ECU Address": "0x34703650",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TURN_LIGHT_FREQUENCY",
+            "Long Identifier": "Flashing turn light frequency",
+            "Type": "VALUE",
+            "ECU Address": "0x3470364C",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TURN_LIGHT_DUTY_CYCLE",
+            "Long Identifier": "Flashing turn light duty cycle",
+            "Type": "VALUE",
+            "ECU Address": "0x34703648",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TIME_FRAME",
+            "Long Identifier": "Time frame",
+            "Type": "VALUE",
+            "ECU Address": "0x34703644",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TARGET_POSITION_UPPER_LIMIT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703640",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TARGET_POSITION_LOWER_LIMIT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470363C",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TARGET_POSITION_INITIAL",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703638",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TAILGATE_OPERATING_WARNING_LIGHT_FLASHING_FREQUENCY",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703634",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "TAILGATE_OPERATING_WARNING_LIGHT_DUTY_CYCLE",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703630",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "STANDSTILL_VELOCITY_THRESHOLD",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470362C",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "STALK_SWITCH_HOLD_TIMER",
+            "Long Identifier": "User holds stalk switch for more than 2 seconds to deactivate FMH",
+            "Type": "VALUE",
+            "ECU Address": "0x34703628",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "SAME_DIRECTION_ANGLE_THRESHOLD",
+            "Long Identifier": "The threshold angle need to be reached to turn off indicator when steering wheel back to center.",
+            "Type": "VALUE",
+            "ECU Address": "0x34703624",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "OPPOSITE_OFFSET_ANGLE",
+            "Long Identifier": "The additional angle need to be reached to deactivated indicator, if activating turn indicator in opposite direction when in over threshold degree.",
+            "Type": "VALUE",
+            "ECU Address": "0x34703620",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "OPPOSITE_ANGLE_THRESHOLD",
+            "Long Identifier": "The angle to opposite direction turn indicator shall be deactivated",
+            "Type": "VALUE",
+            "ECU Address": "0x3470361C",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "MIRROR_LED_FREQUENCY",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703618",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "K2_REAR_HEIGHT_SENSOR_PARAMETER_VF8",
+            "Long Identifier": "The calibration parameter of front height sensor",
+            "Type": "VALUE",
+            "ECU Address": "0x34703610",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "K1_FRONT_HEIGHT_SENSOR_PARAMETER_VF8",
+            "Long Identifier": "The calibration parameter of front height sensor",
+            "Type": "VALUE",
+            "ECU Address": "0x3470360C",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "INITIAL_REAR_HEIGHT_SENSOR_VOLTAGE_VF8",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703608",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "INITIAL_FRONT_HEIGHT_SENSOR_VOLTAGE_VF8",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703604",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "FOLLOW_ME_HOME_MAXIMUM_DURATION_TIME",
+            "Long Identifier": "Duration can be increased up to 270 sec.",
+            "Type": "VALUE",
+            "ECU Address": "0x347035FC",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "FOLLOW_ME_HOME_INCREASED_DURATION_TIME",
+            "Long Identifier": "Duration will increase by 30 seconds every time user pulls stalk switch to high beam position.",
+            "Type": "VALUE",
+            "ECU Address": "0x347035F8",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "FLASH_TURN_LIGHT_DURATION",
+            "Long Identifier": "Flash Turn Light Duration",
+            "Type": "VALUE",
+            "ECU Address": "0x347035F4",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "FLASH_CYCLE",
+            "Long Identifier": "Flash turn light cycle",
+            "Type": "VALUE",
+            "ECU Address": "0x347035F0",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "FAILURE_TURN_LIGHT_FREQUENCY",
+            "Long Identifier": "Flashing turn light frequency in case of failure of turn light.",
+            "Type": "VALUE",
+            "ECU Address": "0x347035EC",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "ELM_Ts_P",
+            "Long Identifier": "Sampling time",
+            "Type": "VALUE",
+            "ECU Address": "0x347035E8",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "DISTANCE_FRONT_REAR_AXLE",
+            "Long Identifier": "The distance between front and rear sensor",
+            "Type": "VALUE",
+            "ECU Address": "0x347035E4",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "DEACTIVATE_HIGH_BEAM_FLASHING_TIME",
+            "Long Identifier": "Flashing high beam function will be deactivated if SCM send \\",
+            "Type": "VALUE",
+            "ECU Address": "0x347035E0",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CORNERING_LIGHT_VEHICLE_SPEED_THD",
+            "Long Identifier": "Vehicle speed threshold value for cornering light active",
+            "Type": "VALUE",
+            "ECU Address": "0x347035DC",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CORNERING_LIGHT_VEHICLE_SPEED_DEACTIVE_THD",
+            "Long Identifier": "Vehicle speed threshold value for cornering light inactive",
+            "Type": "VALUE",
+            "ECU Address": "0x347035D8",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CORNERING_LIGHT_STEERING_ANGLE_DEACTIVE_THD",
+            "Long Identifier": "Steering Angle threshold value to deactivate cornering light",
+            "Type": "VALUE",
+            "ECU Address": "0x347035D4",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CORNERING_LIGHT_STEERING_ANGLE_ACTIVE_THD",
+            "Long Identifier": "Steering Angle threshold value to activate cornering light",
+            "Type": "VALUE",
+            "ECU Address": "0x347035D0",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CENTER_POSITION_THRESHOLD",
+            "Long Identifier": "The center domain position of the steering angle.",
+            "Type": "VALUE",
+            "ECU Address": "0x347035CC",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "BYPASS_REQUEST_REVERSE_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700108",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_REQUEST_REAR_POSITION_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700107",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_REQUEST_REAR_FOG_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700106",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_REQUEST_OUTSIDE_MIRROR_LED",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700105",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_REQUEST_LOW_BEAM",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700104",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_REQUEST_LICENSE_PLATE_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700103",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_REQUEST_INDICATOR_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700102",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_REQUEST_HIGH_BEAM",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700101",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_REQUEST_FRONT_POSITION_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700100",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_REQUEST_FRONT_FOG_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000FF",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_REQUEST_DAYTIME_RUNNING_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000FE",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_REQUEST_BRAKE_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000FD",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_REQUEST_ALL_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000FC",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_REVERSE_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000FB",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_REAR_POSITION_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000FA",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_REAR_FOG_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000F9",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_OUTSIDE_MIRROR_LED",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000F8",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_LOW_BEAM",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000F7",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_LICENSE_PLATE_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000F6",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_INDICATOR_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000F5",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_HIGH_BEAM",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000F4",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_FRONT_POSITION_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000F3",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_FRONT_FOG_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000F2",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_DAYTIME_RUNNING_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000F1",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_BRAKE_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000F0",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BYPASS_CONTROL_CONSTANT_ALL_LIGHT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000EF",
+            "Record Layout": "Record_BOOLEAN",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_boolean",
+            "Lower Limit": 0.0,
+            "Upper Limit": 1.0
+        },
+        {
+            "Name": "BRAKE_LIGHT_ON_DECCELERATION_THD",
+            "Long Identifier": "Deceleration threshold to turn ON brake light.",
+            "Type": "VALUE",
+            "ECU Address": "0x347035C8",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "BRAKE_LIGHT_OFF_DECCELERATION_THD",
+            "Long Identifier": "Deceleration threshold to turn OFF brake light.",
+            "Type": "VALUE",
+            "ECU Address": "0x347035C4",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "WALK_AW_TIMEOUT",
+            "Long Identifier": "User not walk away timeout",
+            "Type": "VALUE",
+            "ECU Address": "0x347035C0",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "SPEED_LOCK_DEFAULT",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347035BC",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "RELOCK_DELAY_TIME",
+            "Long Identifier": "Speed sensing auto lock delay times",
+            "Type": "VALUE",
+            "ECU Address": "0x347035B8",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "N1",
+            "Long Identifier": "Key invalid re-search times",
+            "Type": "VALUE",
+            "ECU Address": "0x347035B4",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "IRIV",
+            "Long Identifier": "Key invalid re-search interval",
+            "Type": "VALUE",
+            "ECU Address": "0x347035B0",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "DOOR_LOCK_DELAY",
+            "Long Identifier": "central button trigger unlock delay time",
+            "Type": "VALUE",
+            "ECU Address": "0x347035AC",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CLM_VehMoveSpdThd_P",
+            "Long Identifier": "vehicle moving speed threshold",
+            "Type": "VALUE",
+            "ECU Address": "0x347035A8",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CLM_UnlockLockReqDelayTd_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347035A4",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CLM_SampleTi_P",
+            "Long Identifier": "Sample time",
+            "Type": "VALUE",
+            "ECU Address": "0x347035A0",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CLM_ReminderDelayTd_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470359C",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CLM_PEDelayTd_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703598",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CLM_KeyFOBSearchReqDelayTd_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34703594",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CLM_IniTi_P",
+            "Long Identifier": "Timer initial time",
+            "Type": "VALUE",
+            "ECU Address": "0x34703590",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CLM_DriverCfg_P",
+            "Long Identifier": "0: Driver Door is FL Door 1: Driver Door is FR Door",
+            "Type": "VALUE",
+            "ECU Address": "0x347000EE",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CLM_DoorOpenWarnCfg_P",
+            "Long Identifier": "Door Open Warning",
+            "Type": "VALUE",
+            "ECU Address": "0x347000ED",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CLM_DoorOpenReqDelayTd_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470358C",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CLM_DisaWalkAwayLockCfg_P",
+            "Long Identifier": "Disable switch for walk away lock configuration",
+            "Type": "VALUE",
+            "ECU Address": "0x347000EC",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CLM_DisaUnlockOption_P",
+            "Long Identifier": "Disable unlock option value (Driver door or All door)",
+            "Type": "VALUE",
+            "ECU Address": "0x347000EB",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CLM_DisaUnlockOptionCfg_P",
+            "Long Identifier": "Disable switch for unlock option configuration",
+            "Type": "VALUE",
+            "ECU Address": "0x347000EA",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CLM_DisaSpdLockCfg_P",
+            "Long Identifier": "Disable switch for speed sensing lock configuration",
+            "Type": "VALUE",
+            "ECU Address": "0x347000E9",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CLM_DisaRelsCfg_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000E8",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CLM_DisaParkUnlockSetCfg_P",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x347000E7",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CLM_DisaFeedbackCfg_P",
+            "Long Identifier": "Disable switch for unlock\\\\lock feedback configuration",
+            "Type": "VALUE",
+            "ECU Address": "0x347000E6",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CLM_DisaCentralBtnCfg_P",
+            "Long Identifier": "Disable switch for central button configuration",
+            "Type": "VALUE",
+            "ECU Address": "0x347000E5",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CLM_AutoRelockTime_P",
+            "Long Identifier": "Auto relock countdown time.",
+            "Type": "VALUE",
+            "ECU Address": "0x34703588",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "CLM_AutoRelockCfg_P",
+            "Long Identifier": "Disable switch for auto relock configuration",
+            "Type": "VALUE",
+            "ECU Address": "0x347000E4",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "AUTO_RELOCK_TRY_TIME",
+            "Long Identifier": "Speed sensing auto lock times",
+            "Type": "VALUE",
+            "ECU Address": "0x34703584",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "ARIV",
+            "Long Identifier": "Key valid AR re-search interval",
+            "Type": "VALUE",
+            "ECU Address": "0x34703580",
+            "Record Layout": "Record_FLOAT32_IEEE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_single",
+            "Lower Limit": -3.4e+38,
+            "Upper Limit": 3.4e+38
+        },
+        {
+            "Name": "ELM_FRAHLTargetPosition_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700122",
+            "Record Layout": "Record_UWORD",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint16",
+            "Lower Limit": 0.0,
+            "Upper Limit": 65535.0
+        },
+        {
+            "Name": "ELM_FLAHLTargetPosition_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700120",
+            "Record Layout": "Record_UWORD",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint16",
+            "Lower Limit": 0.0,
+            "Upper Limit": 65535.0
+        },
+        {
+            "Name": "COM_WindowDSBBtnPressRR_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700089",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "COM_WindowDSBBtnPressRL_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700088",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "COM_WindowDSBBtnPressFR_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700087",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "COM_WindowDSBBtnPressFL_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700086",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "WWM_AutoOrIntervalModeSts_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700085",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "WWM_AutoModeLEDSts_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700084",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "ELM_AHBRightHBStatus_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700083",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "ELM_AHBLeftHBStatus_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700082",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "ELM_AHBStatus_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700081",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "ILM_PWM_FN_ILUM_LIN_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700080",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "Nv_AutoSunroofSts_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470007F",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "MHU_SetRearDefrost_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470007E",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "MFS_UpControl_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470007D",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "MFS_RightControl_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470007C",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "MFS_LeftControl_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470007B",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "MFS_DownControl_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470007A",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_WindowCAppControlRR_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700079",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_WindowCAppControlRL_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700078",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_WindowCAppControlFR_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700077",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_WindowCAppControlFL_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700076",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_WindowVoiceControlRR_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700075",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_WindowVoiceControlRL_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700074",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_WindowVoiceControlFR_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700073",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_WindowVoiceControlFL_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700072",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_WashModeSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700071",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_RearWiperAutoModeSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700070",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_WiperServiceModeSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470006F",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_CAPPHornRequest_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470006E",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CVC_RemoteParkingRequest_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470006D",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CVC_ACTGear_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470006C",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CVC_TransportModeSts_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470006B",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CVC_AccessoryModeRequest_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470006A",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "FCAM_RemoteDrivingRequest_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700069",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CVC_OtaRequest_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700068",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "CVC_ActualGearValid_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700067",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "Nv_WelcomeLightSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700066",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_WelcomeLightSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700065",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "Nv_FMHSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700064",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_FMHSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700063",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_AHBSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700062",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "IDB_BrakingSensorStatus_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700061",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "Nv_RearFogLightSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700060",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_RearFogLightSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470005F",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "Nv_FrontFogLightSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470005E",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_FrontFogLightSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470005D",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "Nv_ExteriorLightSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470005C",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_ExteriorLightSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470005B",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "Nv_ChildModeSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470005A",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "Nv_FeedbackSignalsSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700059",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "Nv_DoorUnlockOptionSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700058",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "Nv_WalkAwayLockSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700057",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "Nv_SpeedLockSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700056",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "Nv_ParkUnlockSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700055",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_ChildModeSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700054",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_FeedbackSignalsSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700053",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_DoorUnlockOptionSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700052",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_WalkAwayLockSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700051",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_SpeedLockSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700050",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_ParkUnlockSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470004F",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_SwitchLightBrightness_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470004E",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_RearDomeLampSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470004D",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_FrontDomeLampSet_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470004C",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_FootwellLightMode_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470004B",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_AmbLightTypeReq_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x3470004A",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_AmbLightBrightnessReq_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700049",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_AmbLightColorBlue_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700048",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_AmbLightColorGreen_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700047",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        },
+        {
+            "Name": "S2S_AmbLightColorRed_Dummy",
+            "Long Identifier": "",
+            "Type": "VALUE",
+            "ECU Address": "0x34700046",
+            "Record Layout": "Record_UBYTE",
+            "Maximum Difference": 0.0,
+            "Conversion Method": "CM_uint8",
+            "Lower Limit": 0.0,
+            "Upper Limit": 255.0
+        }
+    ]
+}
